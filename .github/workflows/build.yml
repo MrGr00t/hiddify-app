@@ -1,5 +1,6 @@
 name: Build
 on:
+  workflow_dispatch: # 手动手工触发 Workflow
   workflow_call:
     inputs:
       upload-artifact:
